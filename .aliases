@@ -240,7 +240,6 @@ alias gobinls="ls ~/go/bin";
 alias gotogo="cd ~/go/src/github.com/willyspinner"
 alias depens="dep ensure -v"
 
-'
 alias svi="sudo vi"
 
 # pretty json formatter.
@@ -266,10 +265,6 @@ alias curlbot="echo 'curling devel whatsappbot...';curl -X POST localhost:4455/a
 
 alias bfg="java -jar ~/willysBinSrc/bfg-1.13.0.jar"
 
-
-alias pglog="echo tailing /Users/willyspinner/Library/Application Support/Postgres/var-10/postgresql.log ...
-tail -f '/Users/willyspinner/Library/Application Support/Postgres/var-10/postgresql.log'
-"
 alias tailpg="pglog"
 alias pgtail="pglog"
 alias es="elasticsearch"
@@ -282,5 +277,8 @@ alias shbeast="ssh willyspinner@mach-2.homelinux.net"
 alias sccp="scp -i ~/.ssh/id_rsa"
 alias gmv="git mv"
 
+alias tm="tmux"
 alias sqlzen='psql $( cat ~/Desktop/mathpix_internship/zenpix/env |grep  "export DB_ANNO=" | sed "s/export DB_ANNO=//g")'
+
 alias psqlzen="sqlzen"
+
