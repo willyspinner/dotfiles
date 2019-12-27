@@ -142,3 +142,8 @@ let g:syntastic_python_checkers=['python3']
 " vim-airline theme
 
 let g:airline_theme='luna'
+
+" for tab switching in vim!
+nmap <Left> gT
+nmap <Right> gt
+
